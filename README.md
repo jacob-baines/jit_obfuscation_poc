@@ -2,7 +2,7 @@
 
 In my adventures I came across [GNU lightning](https://www.gnu.org/software/lightning/). Lightning generates assembly at runtime and is great for implementing a just-in-time compiler. A really neat example is [this](https://blog.dubbelboer.com/2012/11/18/brainfuck-jit.html) Brainfuck JIT compiler by Erik Dubbelboer.
 
-Well, I thought that was pretty neat and wanted to play with it a lightning a little. However, I didn't want to code up my own fullblown VM. That would require some serious effort and I'm not *that* interested. So I wrote this little toy that xor deobfuscates a function in memory using lightning. The the bindshell is the same one I used in my [Anti-Reversing Techniques](https://leanpub.com/anti-reverse-engineering-linux) book. You can see more [here](https://github.com/antire-book).
+I thought that was pretty neat and wanted to play with lightning a little. However, I didn't want to code up my own fullblown VM. That would require some serious effort and I'm not *that* interested. So I wrote this little toy that xor deobfuscates a function in memory using lightning. The the bindshell is the same one I used in my [Anti-Reversing Techniques](https://leanpub.com/anti-reverse-engineering-linux) book. You can see more [here](https://github.com/antire-book).
 
 If you don't want to compile the project yourself then you can find it on VirusTotal:
 
