@@ -77,7 +77,7 @@ albinolobster@ubuntu:~/jit_obfuscation/build$ ./trouble/trouble
 This will cause the program to begin listening on port 1270.
 
 ## Connecting to the bind shell
-You'll need the bind shell password in order to successfully connect. The password is output when you compile the program. In the output above the bind shell password is "wulg2FZo17WKoZ6e5Eyyet2BNBP1ppRE". Here is an example of connecting to the bindshell:
+You'll need the bind shell password in order to successfully connect. The password is output when you compile the program. In the output above the bind shell password is "rsMzp7gqOME8J5KOAVeDnmNUQb4z7pKU". Here is an example of connecting to the bindshell:
 
 ```sh
 albinolobster@ubuntu:~$ nc 127.0.0.1 1270
